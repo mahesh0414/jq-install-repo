@@ -1,0 +1,12 @@
+---
+# tasks file for jq-install-repo
+- name: Download jq from github link
+  get_url:
+    url: "{{jq_url}}"
+    dest: "{{workspace}}"
+
+-name: Create jq install directory
+ file:
+   path: "{{jq_install_path}}"
+   mode: 0755
+

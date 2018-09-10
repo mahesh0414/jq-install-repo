@@ -1,0 +1,5 @@
+---
+# defaults file for jq-install-repo
+jq_url: https://stedolan.github.io/jq/download/linux64/jq
+workspace: /tmp
+jq_install_path: /bin/jq

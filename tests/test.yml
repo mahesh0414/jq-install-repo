@@ -1,0 +1,6 @@
+---
+- hosts: hosts
+  become_user: root
+  become: yes
+  roles:
+    - jq-install-repo
